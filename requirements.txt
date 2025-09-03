@@ -9,5 +9,4 @@ streamlit-folium
 pydeck
 plotly 
 google.generativeai
-sklearn
 scikit-learn 
