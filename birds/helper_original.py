@@ -143,7 +143,7 @@ def svg_to_dataurl(path_to_svg):
         svg = f.read()
     return "data:image/svg+xml;base64," + base64.b64encode(svg.encode('utf-8')).decode('utf-8')
 
-url=svg_to_dataurl('/Users/mayanksingh/Desktop/All desktop/Desktop 19 Aug 2025/chatgpt/Nest_project/birds/crow-solid.svg')
+url=svg_to_dataurl('birds/crow-solid.svg')
 
 # Load data
 #df = pd.read_csv
